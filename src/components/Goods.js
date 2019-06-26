@@ -12,6 +12,7 @@ class Goods extends React.Component {
     alert(res.data)
   }
   render() {
+    // 同 Customers.js 注释
     const { permissions } = this.props
     return (
       <div className="goods-box">
